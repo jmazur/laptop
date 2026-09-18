@@ -20,6 +20,8 @@ git clone git@github.com:jmazur/dotfiles.git ~/dotfiles-local
 git clone git@github.com:thoughtbot/dotfiles.git ~/dotfiles
 env RCRC=$HOME/dotfiles/rcrc rcup
 
-
+# vim theme catppuccin
+git clone https://github.com/catppuccin/vim.git ~/.vim/pack/vendor/start/catppuccin
 
 # finally, open vim and run :PlugInstall to make sure all plugins are set up properly
+IN VIM RUN :PlugInstall

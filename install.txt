@@ -25,3 +25,9 @@ git clone https://github.com/catppuccin/vim.git ~/.vim/pack/vendor/start/catppuc
 
 # finally, open vim and run :PlugInstall to make sure all plugins are set up properly
 IN VIM RUN :PlugInstall
+
+
+# set up github bundler credentials
+git config --global credential.helper osxkeychain
+gh auth login
+gh auth setup-git
